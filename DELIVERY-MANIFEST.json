@@ -48,8 +48,8 @@
     },
     {
       "path": "Dockerfile",
-      "bytes": 1119,
-      "sha256": "e1f3121d5d8ada73bc0f2929600734afe3cbe14d6403143bb81be1cb54b2a646"
+      "bytes": 1176,
+      "sha256": "f3ba96d64ae6cde3553214806af834f251df077dd22463b843bc961276d706c2"
     },
     {
       "path": "README.md",

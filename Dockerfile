@@ -2,6 +2,7 @@ FROM node:22-bookworm-slim@sha256:e9f565d32859f0cbfb52125eafe8be39390f24dac302dc
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends python3 make g++ && rm -rf /var/lib/apt/lists/*
 COPY package.json package-lock.json ./
+COPY simple-demo/package.json ./simple-demo/package.json
 RUN npm ci
 COPY tsconfig.json ./
 COPY src ./src
