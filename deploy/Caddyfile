@@ -1,0 +1,8 @@
+{$AGENT_DOMAIN} {
+	# No access logging: do not record authentication headers or private bodies.
+	reverse_proxy app:3001 {
+		transport http {
+			response_header_timeout 28s
+		}
+	}
+}

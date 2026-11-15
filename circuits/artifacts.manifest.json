@@ -1,0 +1,24 @@
+{
+  "source": "https://agentgames.zkverify.io/build",
+  "registeredNetwork": "mainnet",
+  "vkHash": "0x6c56509f1c56fd1fd4e9737f906d2220f4b95f1d507f1adf6899085bd74be047",
+  "proofSystem": "groth16",
+  "curve": "bn128",
+  "files": [
+    {
+      "file": "vfy-policy.wasm",
+      "sha256": "bc0998250d2baf75b89deef5306867ffa7085a08d4f7d2caf0dd63a060b134d2",
+      "bytes": 2991212
+    },
+    {
+      "file": "vfy-policy_final.zkey",
+      "sha256": "f9666a1655279ef27f7fee6d535ac8aa9e39286ac40ff6279fea87c21ab6ce41",
+      "bytes": 810586
+    },
+    {
+      "file": "verification_key.json",
+      "sha256": "52c62758fa85edc7aa52318a8bdb495b9da8deaa7a2e8a25fd8c7e5669bb07f3",
+      "bytes": 4392
+    }
+  ]
+}
