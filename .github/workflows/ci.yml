@@ -1,4 +1,3 @@
-yaml
 name: Verify service and container
 "on":
   push:
