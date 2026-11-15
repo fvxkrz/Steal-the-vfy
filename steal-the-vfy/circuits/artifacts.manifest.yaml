@@ -1,0 +1,14 @@
+---
+name: Steal the VFY
+circuit: vfy-policy
+proofSystem: groth16
+curve: bn128
+publicInputs: 9
+vkHash: 0x6c56509f1c56fd1fd4e9737f906d2220f4b95f1d507f1adf6899085bd74be047
+artifacts:
+  - file: vfy-policy.wasm
+    url: https://agentgames.zkverify.io/circuits/vfy-policy.wasm
+    sha256: bc0998250d2baf75b89deef5306867ffa7085a08d4f7d2caf0dd63dac02b134d2
+  - file: vfy-policy_final.zkey
+    url: https://agentgames.zkverify.io/circuits/vfy-policy_final.zkey
+    sha256: f9666a1655279ef27f7fee6d535ac8aa9e39286ac40ff6279fea87c21ab6ce41
